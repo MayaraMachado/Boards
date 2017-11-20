@@ -1,18 +1,10 @@
-{% load static %}
-<!DOCTYPE html>
-<html>
+{% extends 'base.html' %}
 
-<head>
-    <meta charset="utf-8">
-    <title>Boards</title>
-    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
-</head>
-
-<body>
-    <div class="container">
-        <ol class="breadcrumb my-4">
+{% block breadcrumb %}
             <li class="breadcrumb-item active">Boards</li>
-        </ol>
+{% endblock%}
+
+{% block content %}
         <table class="table">
             <thead class="thead-inverse" style='background: rgba(0,0,0, 0.8); color:#fff'> 
                 <tr>
@@ -20,7 +12,7 @@
                     <th>Posts</th>
                     <th>Topics</th>
                     <th>Last Post</th>
-                </tr>
+                </tr>           
             </thead>
             <tbody>
                 {% for board in boards %}
@@ -36,7 +28,4 @@
                 {% endfor %}
             </tbody>
         </table>
-    </div>
-</body>
-
-</html>
+{% endblock %}
