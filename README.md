@@ -11,5 +11,4 @@ CRUD desenvolvido para concorrer convocaço para o hackathon carmelita 2017
 
 
 # Como rodar
-Para rodar, faça download do projeto, abra o diretrio principal no terminal e digite python manage.py runserver (ou python3 manage.py runserver 
-dependendo de como o python 3.x está sendo lido no seu computador)
+Para rodar, faça download do projeto, abra o diretório principal no terminal e digite python manage.py runserver (ou python3 manage.py runserver dependendo de como o python 3.x está sendo lido no seu computador)
