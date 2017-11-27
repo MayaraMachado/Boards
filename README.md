@@ -1,6 +1,5 @@
 # Boards 
 Processo de aprendizagem da framework Django através da produção de um CRUD estilo fórum
-CRUD desenvolvido para concorrer convocaço para o hackathon carmelita 2017
 
 
 
